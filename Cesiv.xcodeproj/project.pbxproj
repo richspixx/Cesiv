@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6E42AB22301F1E009AF65D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42AA22301F1E009AF65D /* AppDelegate.m */; };
+		0F6E42AE22301F1E009AF65D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42AD22301F1E009AF65D /* FirstViewController.m */; };
+		0F6E42B122301F1E009AF65D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42B022301F1E009AF65D /* SecondViewController.m */; };
+		0F6E42B422301F1E009AF65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6E42B222301F1E009AF65D /* Main.storyboard */; };
+		0F6E42B622301F20009AF65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6E42B522301F20009AF65D /* Assets.xcassets */; };
+		0F6E42B922301F20009AF65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6E42B722301F20009AF65D /* LaunchScreen.storyboard */; };
+		0F6E42BC22301F20009AF65D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42BB22301F20009AF65D /* main.m */; };
+		0F6E42C622301F20009AF65D /* CesivTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42C522301F20009AF65D /* CesivTests.m */; };
+		0F6E42D122301F20009AF65D /* CesivUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E42D022301F20009AF65D /* CesivUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6E42C222301F20009AF65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6E429E22301F1E009AF65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6E42A522301F1E009AF65D;
+			remoteInfo = Cesiv;
+		};
+		0F6E42CD22301F20009AF65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6E429E22301F1E009AF65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6E42A522301F1E009AF65D;
+			remoteInfo = Cesiv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6E42A622301F1E009AF65D /* Cesiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cesiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6E42A922301F1E009AF65D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6E42AA22301F1E009AF65D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6E42AC22301F1E009AF65D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0F6E42AD22301F1E009AF65D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0F6E42AF22301F1E009AF65D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0F6E42B022301F1E009AF65D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0F6E42B322301F1E009AF65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F6E42B522301F20009AF65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F6E42B822301F20009AF65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F6E42BA22301F20009AF65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6E42BB22301F20009AF65D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6E42C122301F20009AF65D /* CesivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CesivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6E42C522301F20009AF65D /* CesivTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CesivTests.m; sourceTree = "<group>"; };
+		0F6E42C722301F20009AF65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6E42CC22301F20009AF65D /* CesivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CesivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6E42D022301F20009AF65D /* CesivUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CesivUITests.m; sourceTree = "<group>"; };
+		0F6E42D222301F20009AF65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6E42A322301F1E009AF65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42BE22301F20009AF65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42C922301F20009AF65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6E429D22301F1E009AF65D = {
+			isa = PBXGroup;
+			children = (
+				0F6E42A822301F1E009AF65D /* Cesiv */,
+				0F6E42C422301F20009AF65D /* CesivTests */,
+				0F6E42CF22301F20009AF65D /* CesivUITests */,
+				0F6E42A722301F1E009AF65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6E42A722301F1E009AF65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E42A622301F1E009AF65D /* Cesiv.app */,
+				0F6E42C122301F20009AF65D /* CesivTests.xctest */,
+				0F6E42CC22301F20009AF65D /* CesivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6E42A822301F1E009AF65D /* Cesiv */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E42A922301F1E009AF65D /* AppDelegate.h */,
+				0F6E42AA22301F1E009AF65D /* AppDelegate.m */,
+				0F6E42AC22301F1E009AF65D /* FirstViewController.h */,
+				0F6E42AD22301F1E009AF65D /* FirstViewController.m */,
+				0F6E42AF22301F1E009AF65D /* SecondViewController.h */,
+				0F6E42B022301F1E009AF65D /* SecondViewController.m */,
+				0F6E42B222301F1E009AF65D /* Main.storyboard */,
+				0F6E42B522301F20009AF65D /* Assets.xcassets */,
+				0F6E42B722301F20009AF65D /* LaunchScreen.storyboard */,
+				0F6E42BA22301F20009AF65D /* Info.plist */,
+				0F6E42BB22301F20009AF65D /* main.m */,
+			);
+			path = Cesiv;
+			sourceTree = "<group>";
+		};
+		0F6E42C422301F20009AF65D /* CesivTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E42C522301F20009AF65D /* CesivTests.m */,
+				0F6E42C722301F20009AF65D /* Info.plist */,
+			);
+			path = CesivTests;
+			sourceTree = "<group>";
+		};
+		0F6E42CF22301F20009AF65D /* CesivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E42D022301F20009AF65D /* CesivUITests.m */,
+				0F6E42D222301F20009AF65D /* Info.plist */,
+			);
+			path = CesivUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6E42A522301F1E009AF65D /* Cesiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6E42D522301F20009AF65D /* Build configuration list for PBXNativeTarget "Cesiv" */;
+			buildPhases = (
+				0F6E42A222301F1E009AF65D /* Sources */,
+				0F6E42A322301F1E009AF65D /* Frameworks */,
+				0F6E42A422301F1E009AF65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cesiv;
+			productName = Cesiv;
+			productReference = 0F6E42A622301F1E009AF65D /* Cesiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F6E42C022301F20009AF65D /* CesivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6E42D822301F20009AF65D /* Build configuration list for PBXNativeTarget "CesivTests" */;
+			buildPhases = (
+				0F6E42BD22301F20009AF65D /* Sources */,
+				0F6E42BE22301F20009AF65D /* Frameworks */,
+				0F6E42BF22301F20009AF65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6E42C322301F20009AF65D /* PBXTargetDependency */,
+			);
+			name = CesivTests;
+			productName = CesivTests;
+			productReference = 0F6E42C122301F20009AF65D /* CesivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F6E42CB22301F20009AF65D /* CesivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6E42DB22301F20009AF65D /* Build configuration list for PBXNativeTarget "CesivUITests" */;
+			buildPhases = (
+				0F6E42C822301F20009AF65D /* Sources */,
+				0F6E42C922301F20009AF65D /* Frameworks */,
+				0F6E42CA22301F20009AF65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6E42CE22301F20009AF65D /* PBXTargetDependency */,
+			);
+			name = CesivUITests;
+			productName = CesivUITests;
+			productReference = 0F6E42CC22301F20009AF65D /* CesivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6E429E22301F1E009AF65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Elmer Jimenez";
+				TargetAttributes = {
+					0F6E42A522301F1E009AF65D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0F6E42C022301F20009AF65D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0F6E42A522301F1E009AF65D;
+					};
+					0F6E42CB22301F20009AF65D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0F6E42A522301F1E009AF65D;
+					};
+				};
+			};
+			buildConfigurationList = 0F6E42A122301F1E009AF65D /* Build configuration list for PBXProject "Cesiv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F6E429D22301F1E009AF65D;
+			productRefGroup = 0F6E42A722301F1E009AF65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6E42A522301F1E009AF65D /* Cesiv */,
+				0F6E42C022301F20009AF65D /* CesivTests */,
+				0F6E42CB22301F20009AF65D /* CesivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6E42A422301F1E009AF65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6E42B922301F20009AF65D /* LaunchScreen.storyboard in Resources */,
+				0F6E42B622301F20009AF65D /* Assets.xcassets in Resources */,
+				0F6E42B422301F1E009AF65D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42BF22301F20009AF65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42CA22301F20009AF65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6E42A222301F1E009AF65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6E42B122301F1E009AF65D /* SecondViewController.m in Sources */,
+				0F6E42AB22301F1E009AF65D /* AppDelegate.m in Sources */,
+				0F6E42BC22301F20009AF65D /* main.m in Sources */,
+				0F6E42AE22301F1E009AF65D /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42BD22301F20009AF65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6E42C622301F20009AF65D /* CesivTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6E42C822301F20009AF65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6E42D122301F20009AF65D /* CesivUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6E42C322301F20009AF65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6E42A522301F1E009AF65D /* Cesiv */;
+			targetProxy = 0F6E42C222301F20009AF65D /* PBXContainerItemProxy */;
+		};
+		0F6E42CE22301F20009AF65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6E42A522301F1E009AF65D /* Cesiv */;
+			targetProxy = 0F6E42CD22301F20009AF65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F6E42B222301F1E009AF65D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6E42B322301F1E009AF65D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F6E42B722301F20009AF65D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6E42B822301F20009AF65D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6E42D322301F20009AF65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F6E42D422301F20009AF65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6E42D622301F20009AF65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = Cesiv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.Cesiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F6E42D722301F20009AF65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = Cesiv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.Cesiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F6E42D922301F20009AF65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = CesivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.CesivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesiv.app/Cesiv";
+			};
+			name = Debug;
+		};
+		0F6E42DA22301F20009AF65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = CesivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.CesivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cesiv.app/Cesiv";
+			};
+			name = Release;
+		};
+		0F6E42DC22301F20009AF65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = CesivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.CesivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cesiv;
+			};
+			name = Debug;
+		};
+		0F6E42DD22301F20009AF65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFET9Q65SR;
+				INFOPLIST_FILE = CesivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iam-thatis.CesivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cesiv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6E42A122301F1E009AF65D /* Build configuration list for PBXProject "Cesiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6E42D322301F20009AF65D /* Debug */,
+				0F6E42D422301F20009AF65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6E42D522301F20009AF65D /* Build configuration list for PBXNativeTarget "Cesiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6E42D622301F20009AF65D /* Debug */,
+				0F6E42D722301F20009AF65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6E42D822301F20009AF65D /* Build configuration list for PBXNativeTarget "CesivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6E42D922301F20009AF65D /* Debug */,
+				0F6E42DA22301F20009AF65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6E42DB22301F20009AF65D /* Build configuration list for PBXNativeTarget "CesivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6E42DC22301F20009AF65D /* Debug */,
+				0F6E42DD22301F20009AF65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6E429E22301F1E009AF65D /* Project object */;
+}
